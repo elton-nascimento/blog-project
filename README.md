@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog Pessoal com Next.js e Sanity.io
 
-## Getting Started
+Este é um projeto de estudo para a construção de uma plataforma de blog moderna, utilizando as tecnologias mais recentes do ecossistema JavaScript. O objetivo é criar um site performático, com conteúdo gerenciável e deploy automatizado, servindo como uma peça central para um portfólio de desenvolvedor.
 
-First, run the development server:
+## Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O projeto consiste em um blog full stack onde os artigos são criados e gerenciados através de um CMS Headless (Sanity.io) e exibidos por uma aplicação frontend construída com Next.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Acesse a versão ao vivo do projeto:** [https://blog-project-mu-five.vercel.app/](https://blog-project-mu-five.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Framework:** Next.js (com App Router)
+*   **Linguagem:** TypeScript
+*   **Estilização:** Tailwind CSS
+*   **CMS (Headless):** Sanity.io (a ser integrado)
+*   **Deploy:** Vercel
 
-## Learn More
+## Cronograma e Próximos Passos
 
-To learn more about Next.js, take a look at the following resources:
+- [x] **Dia 1:** Configuração inicial do projeto, deploy na Vercel e criação do README.
+- [ ] **Dia 2:** Estruturação do layout principal (Header e Footer).
+- [ ] **Dia 3:** Estilização do layout com Tailwind CSS.
+- [ ] **Dia 4:** Criação da página "Sobre".
+- [ ] **Dia 5:** Integração com o CMS Sanity.io.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Este README será atualizado conforme o projeto avança.*
