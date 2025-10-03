@@ -19,10 +19,12 @@ O projeto consiste em um blog full stack onde os artigos são criados e gerencia
 ## Cronograma e Próximos Passos
 
 - [x] **Dia 1:** Configuração inicial do projeto, deploy na Vercel e criação do README.
-- [ ] **Dia 2:** Estruturação do layout principal (Header e Footer).
-- [ ] **Dia 3:** Estilização do layout com Tailwind CSS.
-- [ ] **Dia 4:** Criação da página "Sobre".
+- [x] **Dia 2:** Estruturação do layout principal (Header e Footer).
+- [x] **Dia 3:** Estilização do layout com Tailwind CSS.
+- [x] **Dia 4:** Criação da página "Sobre".
 - [ ] **Dia 5:** Integração com o CMS Sanity.io.
+- [ ] **Dia 6:** Criação da listagem de posts na página inicial.
+- [ ] **Dia 7:** Criação das páginas dinâmicas para cada post.
 
 ---
 *Este README será atualizado conforme o projeto avança.*
