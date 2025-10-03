@@ -24,15 +24,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
+        {/*
+          As novas classes do Tailwind:
+          - 'flex': Ativa o layout Flexbox.
+          - 'flex-col': Organiza os itens em uma coluna (um embaixo do outro: Header, main, Footer).
+          - 'min-h-screen': Define a altura mínima do body como 100% da altura da tela (viewport height).
+            Isso garante que o body sempre ocupe a tela inteira, de cima a baixo.
+        */}
         {/* 2. ADICIONAMOS O HEADER AQUI */}
         <Header />
 
         {/* A tag <main> é onde o conteúdo específico de cada página será renderizado.
             O 'children' representa as páginas (como page.tsx, about/page.tsx, etc.).
             - 'p-4': Adiciona um espaçamento interno para o conteúdo não ficar colado nas bordas.
+            Para fazer o conteúdo principal crescer e empurrar o rodapé para baixo,
+          adicionamos a classe 'flex-grow' ao <main
         */}
-        <main className="container mx-auto p-4">
+        <main className="container mx-auto p-4 flex-grow">
           {children}
         </main>
 
