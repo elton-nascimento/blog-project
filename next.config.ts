@@ -1,6 +1,6 @@
 // next.config.ts
 
-import { withStudio } from 'next-sanity/studio/with-studio'
+import { NextStudio } from 'next-sanity/studio'
 import type { NextConfig } from 'next'
 
 const config: NextConfig = {
@@ -8,4 +8,4 @@ const config: NextConfig = {
   // Deixe-as como estão.
 }
 
-export default withStudio(config)
+export default NextStudio(config)
