@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
+// next.config.ts
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+import { withStudio } from 'next-sanity/studio/with-studio'
+import type { NextConfig } from 'next'
 
-export default nextConfig;
+const config: NextConfig = {
+  // A sua configuração do Next.js pode ter outras opções aqui.
+  // Deixe-as como estão.
+}
+
+export default withStudio(config)
